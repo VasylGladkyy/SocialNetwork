@@ -7,7 +7,7 @@ import javax.persistence.*;
 @Entity
 @Table
 @Data
-public class Massage {
+public class Message {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
